@@ -17,13 +17,45 @@
     margin-top: 0vh; /* Added to center the modal vertically */
   }
   }
-  
+
+
+
+
+
+
+
   @media (min-width: 769px) {
   #Price {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   justify-content: center;
+  }
+  
+}
+  @media (min-width: 813px) {
+    #Price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    transform: scale(0.6);
+    margin-top: -300px;
+    }
+    .scaling{
+    }
+  }
+  @media (min-width: 1155px) {
+    #Price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: px;
+    justify-content: center;
+    transform: scale(0.9);
+    margin-top: -50px;
+    }
+    .scaling{
+    }
   }
   
   .modal {
@@ -37,7 +69,7 @@
     margin: auto; /* Added to center the modal horizontally */
     margin-top: 0vh; /* Added to center the modal vertically */
   }
-  }
+  
 
   .banner {
     width: 100%;
